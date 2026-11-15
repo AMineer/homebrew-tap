@@ -1,6 +1,6 @@
 cask "rasternest" do
-  version "0.4.3"
-  sha256 "361d072cade6b16740d0c49d650cd0f18c1f10727dce00f40e25e240059fb60d"
+  version "0.4.4"
+  sha256 "761de1d9df27781c56b3d6000830801c28c039fd5c7f03152b2111a2f201549a"
 
   url "https://github.com/AMineer/rasternest_app/releases/download/v#{version}/RasterNest-#{version}.dmg"
   name "RasterNest"
