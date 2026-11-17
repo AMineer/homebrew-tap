@@ -2,18 +2,18 @@ class Rnest < Formula
   desc "RasterNest command-line screen capture, OCR and export"
   homepage "https://rasternest.app"
   # macOS: universal binary. Linux builds override the URL below.
-  url "https://github.com/AMineer/rasternest_app/releases/download/v0.5.0/rnest-0.5.0-macos-universal.tar.gz"
-  sha256 "8bf0bc7a8ba0bdf25918c3c5a7dfbec231f6b8285267af24c8f2c5bc9a4e082d"
+  url "https://github.com/AMineer/rasternest_app/releases/download/v0.5.1/rnest-0.5.1-macos-universal.tar.gz"
+  sha256 "ca38f4286c6b1ab7ffe664aa29a4434857decdabfccc6cf38ec6a132e8d380cb"
   license "MIT"
 
   on_linux do
     on_intel do
-      url "https://github.com/AMineer/rasternest_app/releases/download/v0.5.0/rnest-0.5.0-linux-x86_64.tar.gz"
-      sha256 "674e0e8c9eb7aab89b8f1f608f949e501c6a2c7b19fb415b8f77ad400b7324a0"
+      url "https://github.com/AMineer/rasternest_app/releases/download/v0.5.1/rnest-0.5.1-linux-x86_64.tar.gz"
+      sha256 "194b7a20584334ecf61718591f16e5237455f655673a088cf9c3305367649e3b"
     end
     on_arm do
-      url "https://github.com/AMineer/rasternest_app/releases/download/v0.5.0/rnest-0.5.0-linux-aarch64.tar.gz"
-      sha256 "7724ff945f5c2186fe68a6d2213b9d1bf30f4d0febf626e35123cfa8c49f17a5"
+      url "https://github.com/AMineer/rasternest_app/releases/download/v0.5.1/rnest-0.5.1-linux-aarch64.tar.gz"
+      sha256 "1ac95bc5662ce80fbf13b7f53fe1211f3659623c599c317eedc57fd5b7e48e6d"
     end
   end
 
